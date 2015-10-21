@@ -16,12 +16,25 @@ class LoremIpsumController extends Controller
      */
     public function getIndex()
     {
-        return 'Get the loremipsum index';
+
+        return view('loremipsum.index')->with('results', '');
     }
 
-    public function postIndex()
+    public function postIndex(Request $request)
     {
-        return 'Process the loremipsum index';
+      //validate paragraph number input
+      $this->validate($request, [
+        'paragraph_num'=> 'required|integer|between:0,99',
+        ]);
+
+        $generator = new Generator();
+        $paragraphs = $generator->getParagraphs($request->input('paragraph_num'));
+       
+        $results = '';
+        foreach($paragraphs as $paragraph) {
+            $results .=  '<p>'.$paragraph.'</p>';
+        }
+        return view('loremipsum.index')->with('results', $results);
     }
 
 

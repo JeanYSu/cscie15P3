@@ -41,7 +41,7 @@
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="http://www.raywhite.com.lb/wp-content/uploads/2015/03/loremipsumtext.jpg" alt="LoremIpsum Generator" width="100%">
+        <img src="http://www.raywhite.com.lb/wp-content/uploads/2015/03/loremipsumtext.jpg" alt="LoremIpsum Generator" style="width:100%">
         <div class="carousel-caption">
           <h3><a href="/loremipsum">Lorem Ipsum Generator</a></h3>
           <p>Publish paragrahs of words as a text placeholder in designing an application...</p>
@@ -49,7 +49,7 @@
       </div>
 
       <div class="item">
-        <img src="https://lh5.googleusercontent.com/bI8PYN2RpCUpBNbxvUCXhYBGcmwbw-JjHx2jWr8cvak1GnSO_TETKnPMv7ggI3xokri5zgLH=s640-h400-e365" alt="Random User Generator" width="100%">
+        <img src="https://lh5.googleusercontent.com/bI8PYN2RpCUpBNbxvUCXhYBGcmwbw-JjHx2jWr8cvak1GnSO_TETKnPMv7ggI3xokri5zgLH=s640-h400-e365" alt="Random User Generator" style="width:100%">
         <div class="carousel-caption">
           <h3><a href="/randomuser">Random User Generator</a></h3>
           <p>Create a set of random users for developers to use in unit testing...</p>
@@ -57,7 +57,7 @@
       </div>
 
       <div class="item">
-        <img src="http://imgs.xkcd.com/comics/password_strength.png" alt="Flower" width="100%">
+        <img src="http://imgs.xkcd.com/comics/password_strength.png" alt="xkcd Style Password Generator" style="width:100%">
         <div class="carousel-caption">
           <h3><a href="/xkcdstylepassword">xkcd Style Password Generator</a></h3>
           <p>Create a password that is easy to remember with xkcd style...</p>

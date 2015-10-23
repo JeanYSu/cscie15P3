@@ -1,4 +1,4 @@
-# CSCI E-15 Project 3 by Jean Yu Chun Su
+# CSCI E-15 Project 3 Developer's Best Friend by Jean Yu Chun Su
 
 ## Live URL
 [http://p3.meiosise.com](http://p3.meiosise.com)

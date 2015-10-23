@@ -4,7 +4,7 @@
     CSCI E-15 P3 Lorem Ipsum Generator
 @stop
 
- 
+
 @section('homemenu')
 
 @stop

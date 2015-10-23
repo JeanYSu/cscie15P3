@@ -32,10 +32,7 @@ class LoremIpsumController extends Controller
         $paragraphsCount  = $request->input('paragraph_number');
         $paragraphs = $generator->getParagraphs($paragraphsCount);
 
-        //$results = '';
-        //foreach($paragraphs as $paragraph) {
-        //    $results .=  '<p>'.$paragraph.'</p>';
-        //}
+         
         return view('loremipsum.index')->with('paragraphs', $paragraphs)
                                         ->with('paragraphsCount', $paragraphsCount);
     }

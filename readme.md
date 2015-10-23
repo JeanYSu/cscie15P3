@@ -23,9 +23,9 @@ Users can select maximum of 9 words to generate a xkcd style password. Moreover,
 ## Details for teaching team 
 No login required.
 
-A Random class was created to support random user creation with object storage in array collection. The class source code was stored at app/Http/Library folder (Library folder is a new folder added by author to store src of new classes added outside Laravel framework).
+A RandomUser class was created to support random user creation so that all user data can be stored in an array with user objects. The class source code is located at app/Http/Library folder (Library folder is a new folder added in the project in order to store source code of new classes added outside Laravel framework).
 
-welcome.blade.php file created by Laravel framework was moved to views/home folder to better organize views corresponding to controller action.
+The welcome.blade.php file created by Laravel framework was moved to views/home folder to better organize views corresponding to controller action.
 
 The source code of the project can be found at my github repository: <https://github.com/JeanYSu/cscie15P3>
 

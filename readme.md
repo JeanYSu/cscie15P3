@@ -18,7 +18,7 @@ Users can select maximum of 9 words to generate a xkcd style password. Moreover,
  
 
 ## Demo
-[https://youtu.be/hYT6I4txkbs](https://youtu.be/hYT6I4txkbs)
+[https://youtu.be/IJ9L65w2YZk](https://youtu.be/IJ9L65w2YZk)
 
 ## Details for teaching team 
 No login required.

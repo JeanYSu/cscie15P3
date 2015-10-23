@@ -10,7 +10,9 @@ Controllers were used to route pages and views were used to organize GUI page ht
 
 Users can select maximum of 99 paragraphs to generate lorem ipsum text placeholder.
 
+
 Users can select maximum of 20 users to generate random user data with their name, birthdate, profile and favorite food data shown in the result.
+
 
 Users can select maximum of 9 words to generate a xkcd style password. Moreover, a number or special symbol can be appended to the password. Users can also change all letters in the password to uppercases.
  

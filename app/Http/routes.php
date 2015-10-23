@@ -12,8 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.welcome');
 });
 
-Route::get('/loremipsum', 'LoremIpsumController@getIndex');
-Route::post('/loremipsum', 'LoremIpsumController@postIndex');
+Route::get('/loremipsum', 'LoremIpsumController@getLoremIpsum');
+Route::post('/loremipsum', 'LoremIpsumController@postLoremIpsum');
+
+Route::get('/randomuser', 'RandomUserController@getUsers');
+Route::post('/randomuser', 'RandomUserController@postUsers');
+
+Route::get('/xkcdstylepassword', 'XkcdStylePasswordController@getPassword');
+Route::post('/xkcdstylepassword', 'XkcdStylePasswordController@postPassword');
